@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*  !this is header */
+.first{
+    display: flex;
+    /* background-color: aqua; */
+    padding-top: 20px;
+    
+}
+.space{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+    width: 100vw;
+}
+.title{
+    color: rgb(154, 60, 208);
+}
+.navigation {
+    display: flex;
+    gap: 20px;
+    
+}
+.navigation ul{
+    display: flex;
+    gap: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+   
+}
+.botona{
+    /* text-decoration: none; */
+    border: none;
+width: 100px;
+background-color: rgb(186, 92, 241);
+height: 35px;
+border-radius: 5px;
+color: aliceblue;
+cursor: grab;
+}
+/*  !this is main */
+/* ?hero section */
+.sec1{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.title2{
+    /* padding-left: 210px; */
+}
+.center{
+    /* padding-left: 180px; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.para{
+    /* padding-left: 170px; */
+    color: rgb(84, 83, 83);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.botona2{
+    background-color: rgb(160, 88, 243);
+    border: none;
+    width: 160px;
+    height: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+    cursor: grab;
+    
+}
+.poto{
+    display: flex;
+    justify-content: center;
+    /* padding-left: 200px; */
+    
+}
+/* ?second section */
+.sec2{
+    background-color: rgb(203, 219, 255);
+    /* display: flex; */
+}
+.divone{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    gap: 15px;
+    padding-top: 85px;
+}
+.divone p{
+    padding-bottom: 55px;
+}
+.divtwo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 190px;
+    padding-right: 190px;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+.divth{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 190px;
+    padding-right: 190px;
+    gap: 20px;
+    padding-bottom: 85px;
+}
+/* ?section three */
+.sec3{
+    display: flex;
+    justify-content: center;
+    
+}
+.titre{
+    /* display: flex; */
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.image1{
+
+display: flex;
+}
+.text{
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    /* background-color: blue; */
+    width: 250px;
+    padding-left: 40px;
+    gap: 15px;
+}
+.text p{ 
+    color: rgb(80, 79, 79);
+}
+.text a{
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+    
+}
+.text a span{
+    border-bottom: 2px solid rgb(60, 60, 60);;
+}
+/* ?section four */
+.sec4{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgb(125, 51, 195);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.nmb{
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    /* align-items: center; */
+    gap: 220px;
+}
+.one{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.lein a{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.lein a span{
+    border-bottom: 1px solid aliceblue;
+}
+/* ?section five */
+.sec5{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.logo{
+    display: flex;
+    /* flex-direction: row; */
+    gap: 10px;
+    padding-top: 40px;
+
+}
+.texet2{
+    display: flex;
+    flex-direction: column;
+}
+/* ?this is footer */
+.final{
+    background-color:rgb(203, 219, 255);
+}
+.final1{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+    
+}
+.done{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.done h3{
+    color: rgb(154, 60, 208);
+    
+}
+form{
+    padding-top: 20px;
+    display: flex;
+
+}
+.boto{
+    display: flex;
+    flex-direction: column;
+    border: none;
+     width: 393px;
+    height: 30px;
+    background-color: rgb(119, 49, 185);
+    border-radius: 5px;
+    
+    
+}
+form input{
+    border: none;
+    border: 2px solid rgb(178, 53, 245);
+    background-color: aliceblue;
+    width: 370px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px; 
+    border-radius: 5px; 
+}
+.bo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
